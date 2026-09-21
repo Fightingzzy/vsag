@@ -176,3 +176,6 @@ target_link_libraries(329_feature_ivf_precise_bucket vsag)
 
 add_executable(114_index_simq 114_index_simq.cpp)
 target_link_libraries(114_index_simq vsag)
+
+add_executable(601_utils_rpt_partition 601_utils_rpt_partition.cpp)
+target_link_libraries(601_utils_rpt_partition vsag)
